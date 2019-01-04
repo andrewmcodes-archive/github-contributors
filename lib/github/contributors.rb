@@ -3,6 +3,6 @@ require "github/contributors/version"
 module Github
   module Contributors
     class Error < StandardError; end
-    # Your code goes here...
+    puts `git rev-parse --is-inside-work-tree`
   end
 end

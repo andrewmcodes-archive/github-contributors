@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "github-contributors"
   spec.version       = Github::Contributors::VERSION
   spec.authors       = ["Andrew Mason"]
-  spec.email         = ["andrew.mason@n2pub.com"]
+  spec.email         = ["masonam96@outlook.com"]
 
   spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
   spec.description   = %q{TODO: Write a longer description or delete this line.}
@@ -39,4 +39,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.17"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "minitest", "~> 5.0"
+  spec.add_development_dependency "octokit", "~> 4.0"
 end
